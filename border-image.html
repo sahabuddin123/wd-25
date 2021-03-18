@@ -1,0 +1,27 @@
+<head>
+<style> 
+#borderimg { 
+  border: 50px solid transparent;
+  padding: 15px;
+  border-image: url(https://satech360.com/wp-content/uploads/2020/04/css_border_image.jpg);
+  border-image-slice: 30;
+  border-image-repeat: stretch;
+}
+#borderimg2{
+	border: 50px solid transparent;
+  padding: 15px;
+  border-image: url(https://satech360.com/wp-content/uploads/2020/04/css_border_image.jpg);
+  border-image-slice: 30;
+  border-image-repeat: round;
+}
+</style>
+</head>
+<body>
+ 
+<h1>The border-image Property</h1>
+ 
+<p>Here, the middle sections of the image are repeated to create the border:</p>
+<p id="borderimg">border-image: url(css_border_image.jpg) 30 stretch;</p>
+<p id="borderimg2">border-image: url(css_border_image.jpg) 30 round;</p>
+</body>
+</html>
