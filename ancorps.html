@@ -36,9 +36,29 @@
 			background: #38529A;
 			transition: 1s all ease-in;
 		}
-		ul li:first-child:hover a{
+		ul li:hover:hover a{
 			color: #fff;
 			transition: 1s ease-in;
+		}
+		ul li:hover{
+			transform: rotate(360deg);
+			transition: 2s ease-in;
+		}
+		ul li:nth-child(2):hover{
+			border-radius: 50%;
+			background: #D84D42;
+			transition: 1s all ease-in;
+		}
+		ul li:last-child:hover{
+			border-radius: 50%;
+			background: #52A7E7;
+			transition: 1s all ease-in;
+		}
+		ul li a:focus{
+			color: #0000ff;
+			background: #ff0000;
+			border-radius: 50%;
+			transition: 2s all ease-in;
 		}
 		ul li:first-child{
 			margin: 0;
